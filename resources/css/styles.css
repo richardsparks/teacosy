@@ -55,7 +55,7 @@ article.lead {
   position: relative;
   width: 1200px;
   height: 700px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +73,7 @@ article.lead h2 {
 /* Tea */
 
 article.tea {
-  padding-top: 60px;
+  padding: 60px 0 80px 0;
   width: 1000px;
   background: blue;
   margin: 0 auto;
@@ -100,4 +100,32 @@ article.tea span img {
 article.tea span h5 {
   margin-top: 10px;
   font-size: 22px;
+}
+
+/* Locations */
+
+article.locations {
+  background-image: url(./../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+article.locations h2 {
+  margin-bottom: 15px;
+  flex-basis: 100%;
+}
+
+article.locations span {
+  margin: 0 20px;
+  width: 300px;
+  background: black;
+}
+
+article.locations span h3, p {
+  padding: 20px 0;
 }
